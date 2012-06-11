@@ -1,0 +1,22 @@
+Hi Sirmxe (and other interested parties)
+
+What you see here is a new modular design for Thevalog/thundercleese.
+The main class is obviously `thevalog`.
+The next class of interst is IrcCmds.pm,
+ which is basically an interface for Command-holding modules.
+A command is like !insult or @insult.
+The modules hold a bunch of related commands.
+Each command then defines its help message,
+ trigger command and aliases (triggers),
+ and execution behavior.
+
+Note, I'm sharing this to indicate the direction that I'm trying to go.
+The code is still very erroneous, and any help is welcome.
+For the time being, always run with `-I .` to allow local modules.
+
+Hopefully, ultimately, this will replace the old thevalog AND EnigmaBot,
+at which point, it can take the place of EnigmaBot.
+
+My next plan was to add tells/msgs/seen functionality in.
+
+-IsmAvatar

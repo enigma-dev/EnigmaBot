@@ -1,0 +1,12 @@
+Argument "KERNEL" isn't numeric in array element at Database.pm line 7 (#1)
+    (W numeric) The indicated string was fed as an argument to an operator
+    that expected a numeric value instead.  If you're fortunate the message
+    will identify which operator was so unfortunate.
+
+
+
+-- Author's note --
+There will probably be other hidden problems/errors.
+Anyone with a good background of PERL should look over the code.
+As for myself, I have virtually no PERL background, I just fumbled around.
+-IsmAvatar
