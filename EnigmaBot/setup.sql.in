@@ -1,0 +1,18 @@
+create database if not exists <database>;
+create table <database>.`users` (
+ uname VARCHAR(20) NOT NULL PRIMARY KEY,
+ upriv INT,
+ ujoin DATETIME,
+ useen DATETIME
+);
+create table <database>.`mail` (
+ mid INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+ mfrom VARCHAR(20) NOT NULL,
+ mto VARCHAR(20) NOT NULL,
+ mchan VARCHAR(32),
+ mmsg TEXT,
+ msent DATETIME
+);
+
+create user '<dbUsername>'@'localhost' identified by '<dbPassword>';
+grant select, insert, delete, update on <database>.* to '<dbUsername>'@'localhost';

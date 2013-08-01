@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: prog/mysql.jar prog/jgit.jar prog/jsch.jar
+Main-Class: org.ircbot.IrcBot
+

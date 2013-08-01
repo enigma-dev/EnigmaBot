@@ -1,0 +1,21 @@
+#IRC
+IRC.SERV=irc.freenode.net
+IRC.USER=<ircUsername>
+IRC.PASS=<ircPassword>
+IRC.CHAN=#enigma
+
+#GIT
+GIT.WCDIR=/home/EnigmaBot/gitbot
+GIT.URL.ENIGMA=github.com/enigma-dev/enigma-dev
+GIT.URL.JDI   =github.com/JoshDreamland/JustDefineIt
+GIT.URL.JE    =github.com/JoshDreamland/JoshEdit
+GIT.URL.JEIE  =github.com/IsmAvatar/JEIE
+GIT.URL.JS    =github.com/enigma-dev/ENIGMAjs
+GIT.URL.LGM   =github.com/IsmAvatar/LateralGM
+
+#DB
+DB.HOST=localhost
+DB.PORT=3306
+DB.DB=<database>
+DB.USER=<dbUsername>
+DB.PASS=<dbPassword>
